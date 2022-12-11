@@ -9,10 +9,10 @@ public class Main {
         int num1 = 0, num2 = 0;
 
         Scanner leer = new Scanner(System.in);
-        System.out.print("digite el primer valor: ");
+        System.out.print("Digite el primer valor: ");
         num1 = leer.nextByte();
 
-        System.out.print("digite el segundo valor: ");
+        System.out.print("Digite el segundo valor: ");
         num2 = leer.nextByte();
 
         int suma = num1 + num2;
