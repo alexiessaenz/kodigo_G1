@@ -16,17 +16,17 @@ public class Main {
         num2 = leer.nextByte();
 
         int suma = num1 + num2;
-        System.out.print("El resultado de la suma : " + suma);
+        System.out.println("El resultado de la suma : " + suma);
         int resta = num1 - num2;
-        System.out.print("El resultado de la resta : " + resta);
+        System.out.println("El resultado de la resta : " + resta);
         int multiplicacion = num1 * num2;
-        System.out.print("El resultado de la multiplicacion : " + multiplicacion);
+        System.out.println("El resultado de la multiplicacion : " + multiplicacion);
 
         if (num2 != 0){
             int division = num1 / num2;
-            System.out.print("El resultado de la division : " + division);
+            System.out.println("El resultado de la division : " + division);
         } else {
-            System.out.print("infinito");
+            System.out.println("infinito");
         }
 
 
