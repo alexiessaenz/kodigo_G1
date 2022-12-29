@@ -17,5 +17,6 @@ public class App
         num2 = scan.nextInt();     // 0.0 - 1.0 ( 10 - 1 + 1 ) + 1 
         num3 = (int) (Math.random() * (num2 - num1 + 1) + num1);
         System.out.println( "El numero aleatorio es: " + num3);
+        scan.close();
     }
 }
