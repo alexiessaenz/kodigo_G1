@@ -19,6 +19,7 @@ public class App
         num3 = (int) (Math.random() * (num2 - num1 + 1) + num1);
         
         System.out.println( "El numero aleatorio es: " + num3);
+        
         scan.close();
     }
 }
